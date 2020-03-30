@@ -28,7 +28,8 @@ Before getting to the results some terms must be defined to better understand ho
 ### Chaining  
 The screen shot below provides details on the performance of the program that implemented Separate Chaining 
 
-![ScreenShot](https://github.com/just331/CS4331/blob/master/2019-03-04.png)
+![ScreenShot](https://github.com/just331/CS5352/blob/master/Project%201/p1_separate-chaining_results.PNG)
 
 ### Quadratic Probing
 The screen shot below provides details on the performance of the program that implemented Quadratic Probing 
+![ScreenShot](https://github.com/just331/CS5352/blob/master/Project%201/p1_quad-probing_results.PNG)
