@@ -33,3 +33,5 @@ The screen shot below provides details on the performance of the program that im
 ### Quadratic Probing
 The screen shot below provides details on the performance of the program that implemented Quadratic Probing 
 ![ScreenShot](https://github.com/just331/CS5352/blob/master/Project%201/p1_quad-probing_results.PNG)
+
+Besed upon reviewing the results it was shown that the program that had implemented quadratic probing came out on top. While the two functions had somewhat similar statistics, the quadratic probing program was able to hash the randomly generated list of 100000 numbers in about half the time as the separate chaining program (291.248ms as opposed to 541.31ms)
