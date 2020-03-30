@@ -61,7 +61,7 @@ def sysinfo1():
 
 # Print initial system level info
 print("~" * 300)
-print("Initial System Level Information:")
+print("Initial System Level Information For Project1Chaining.py:")
 sysinfo1()
 print("~" * 300 + "\n")
 
@@ -73,9 +73,10 @@ def main():
     # displayHash(hash_list)
     # Print System level info after program completes tasks
     print("~" * 300)
-    print("System Level Information After Program Completion")
+    print("System Level Information After Program Completion For Project1Chaining.py")
     sysinfo1()
     print("~" * 300 + "\n")
 
 
-main()
+if __name__ == "__main__":
+    main()

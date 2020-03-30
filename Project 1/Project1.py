@@ -99,7 +99,7 @@ def sysinfo():
 
 
 print("~" * 300)
-print("Initial System Level Information:")
+print("Initial System Level Information For Project1.py:")
 sysinfo()
 print("~" * 300 + "\n")
 
@@ -109,9 +109,10 @@ def main():
     toHash = random.sample(range(1, 10000000), 1000000)
     testHash1(toHash)
     print("~" * 300)
-    print("System Level Information After Program Completion:")
+    print("System Level Information After Program Completion For Project1.py:")
     sysinfo()
     print("~" * 300 + "\n")
 
 
-main()
+if __name__ == "__main__":
+    main()
