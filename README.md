@@ -25,6 +25,13 @@ Before getting to the results some terms must be defined to better understand ho
 | Paged_pool, peak_page_pool, nonpaged_pool, peak_nonpaged_pool, | Deal with memory usage by the program                  |
 | pagefile, peaked_pagefile, private                             | Deal with memory usage by program                      |
 
+Based upon reviewing the results it was shown that the program that had implemented quadratic probing came out on top. 
+While the two functions had somewhat similar statistics, the quadratic probing program was able to hash the randomly
+generated list of 100000 numbers in about half the time as the separate (inserting into the hash took 310.198 ms vs 608.374 ms
+in the separate chaining program). Furthermore, the Quadratic probing program used less memory (in terms of RSS and VSS)
+compared to the separate chaining program, though it was at the expense in the number of page faults seen. The full statistics 
+of this project are offered below
+
 ### Chaining  
 The screen shot below provides details on the performance of the program that implemented Separate Chaining 
 #### System Level Information:
@@ -64,12 +71,6 @@ The screen shot below provides details on the performance of the program that im
 2. Write Bytes - 201705 Bytes 
 
 ![ScreenShot](https://github.com/just331/CS5352/blob/master/Project%201/p1_quad-probing_results.PNG)
-
-Based upon reviewing the results it was shown that the program that had implemented quadratic probing came out on top. 
-While the two functions had somewhat similar statistics, the quadratic probing program was able to hash the randomly
-generated list of 100000 numbers in about half the time as the separate (inserting into the hash took 310.198 ms vs 608.374 ms
-in the separate chaining program). Furthermore, the Quadratic probing program used less memory (in terms of RSS and VSS)
-compared to the separate chaining program, though it was at the expense in the number of page faults seen. 
 
 ### Concurrent Running
 Below is a screenshot of both programs running in current to see the effects they have on a system when they are ran as threads at the same time. 
